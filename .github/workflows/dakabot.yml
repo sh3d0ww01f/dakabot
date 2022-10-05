@@ -36,5 +36,4 @@ jobs:
        
     - name: Update paper list
       run: |
-        python dakabot.py 
-        #${{ secrets.username }} ${{ secrets.password }} ${{ secrets.answer }} ${{ secrets.dingtalk_token }} 
+        python dakabot.py
